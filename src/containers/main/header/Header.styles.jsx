@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Colors } from '../../../assets/colors';
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
