@@ -39,7 +39,7 @@ class ActionsDropdown extends PureComponent {
     const { open } = this.state
     const { img, text, icon } = this.props
     const image = img ? <img src={img} alt='dropdownlist icon' /> : null
-    const textWithIcon = icon ? <div>{text}    <FontAwesomeIcon icon={icon} color='white' size='1x' /></div> : null
+    const textWithIcon = icon ? <div>{text}    <FontAwesomeIcon icon={icon} color='#203f54' size='1x' /></div> : null
     const isRound = text ? false : true
     return (
       <ActionsDropdownStyles.Container
