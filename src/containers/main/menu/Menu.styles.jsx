@@ -5,11 +5,13 @@ const MenuBar = styled.div`
   width: 3.3%;
   min-width: 48px;
   max-width: 48px;
-  background: #2a4865;
+  // background: #2a4865;
+  background: white;
   display: flex;
   flex-direction: column;
-  border-top: 0.5px solid #476282;
+  // border-top: 0.5px solid #2565AE;
   justify-content: space-between;
+  border-right: 1px solid lightgrey;
 `;
 
 const Logo = styled.div`

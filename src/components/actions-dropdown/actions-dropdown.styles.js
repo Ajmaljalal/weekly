@@ -7,20 +7,23 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
+    color: #203f54;
+    font-weight: 500;
     cursor: pointer;
     width: ${(props) => props.isRound ? '30px' : '100%'};
     height: ${(props) => props.isRound ? '30px' : '100%'};
     padding: ${(props) => props.isRound ? '0' : '7px 10px'};
+    box-sizing: border-box;
     img {
         width: 30px;
-        border: 2px solid transparent;
         &:hover {
             border: ${(props) => props.border ? '2px solid white' : 'none'};
         }
     } 
     &:hover{
         border-radius: ${(props) => props.isRound ? '50%' : '5px'};
-        background: ${(props) => props.isHover ? '#476282' : 'none'};
+        background: ${(props) => props.isHover ? '#2565AE' : 'none'};
+        color: white;
     }
 `;
 
